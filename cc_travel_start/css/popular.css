@@ -1,0 +1,41 @@
+.popular > h2 {
+    grid-area: top;
+    text-align: center;
+
+}
+
+#c1 {
+    grid-area: center;
+
+}
+#c2 {
+    grid-area: center;
+
+}
+#c3 {
+    grid-area: center;
+
+}
+
+/* 
+.center{
+    grid-area: center;
+   */
+    
+
+
+.bottom{
+    grid-area: bottom;
+   
+}
+
+.popular {
+    display: grid;
+    grid-template-areas: 
+    'top top top'
+    'center center center' 
+    'bottom bottom bottom';
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
