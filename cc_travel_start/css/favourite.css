@@ -1,0 +1,27 @@
+.favourite {
+  display: flex;
+}
+
+.favourite > img {
+  width: 250px;
+  height: 250px;
+  background-color: grey;
+  flex:  33%; 
+  padding: 30px;
+
+
+}
+
+/* .favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+  }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+  }
+   */
+  
