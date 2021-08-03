@@ -4,38 +4,53 @@
 
 }
 
-#c1 {
-    grid-area: center;
+.c1 {
+    grid-area: center1;
 
 }
-#c2 {
-    grid-area: center;
+.c2 {
+    grid-area: center2;
 
 }
-#c3 {
-    grid-area: center;
+.c3 {
+    grid-area: center3;
 
 }
 
-/* 
-.center{
-    grid-area: center;
-   */
+
     
 
+.b1 {
+    grid-area: bottom1;
+    padding: 20px;
 
-.bottom{
-    grid-area: bottom;
-   
+}
+
+.b2 {
+    grid-area: bottom2;
+
+}
+
+.b3 {
+    grid-area: bottom3;
+
+}
+
+.popular > img{
+    
+align-self: center;
+
+
 }
 
 .popular {
     display: grid;
     grid-template-areas: 
     'top top top'
-    'center center center' 
-    'bottom bottom bottom';
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
+    'center1 center2 center3' 
+    'bottom1 bottom2 bottom3';
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-items: center;
+    background-color: gray;
 }
 
